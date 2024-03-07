@@ -34,3 +34,25 @@ h1{
     width: 450px;
 }
 
+
+#divNumbers{
+    margin: 25px;
+    border: 1px solid black;
+    height: 300px;
+    width:  300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.divNumber, .divIgualYPunto{
+    margin: 10px;
+    border: 3px solid black;
+    height: 45px;
+    width:  45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
